@@ -3,8 +3,68 @@
 <head>
     <title>My persoal Webpage Log-in</title>
 <style>
+body {
+	background-color: powderblue;
+	font-famly: Arial;
+	color: black;
+	text-align: center;
+     }
+
+h1 {
+	color: navy;
+	font-size: 36px;
+   }
+
+div.header {
+	background-color: tomato;
+	color: white;
+	text-align: center;
+	padding: 20px;
+   }
+
+.game-text2 {
+	white-space: pre-line; /
+	height: 110px;
+	overflow-y: auto;
+	margn-bottom: 10px;
+   }
+
+.game.input {
+	display: flex;
+   }
+
+.user.input2 {
+	flex: 1;
+	padding: 5px;
+	font-size: 16px;
+   }
+
+.submit_btn2 {
+	padding: 5px 10px;
+	margin-left: 5px;
+	font-size: 16px;
+	cursor: pointer;
+   }
+
 </style>
+
 </head>
 <body>
+<div class = "header">
+	<h1>Log-in Page for my Personal Webpage<h1>
+
+<br>
+<center>
+<div id="game-text2" class = "game-texts">
+</di>
+<input id="user-input2" class="user-input2" type="text" placeholder="Username">
+<button id="submit-btn2" class = "submit-btn2">Submit</button>
+</div></center>
+<script src="login.js"></script>
+<br>
+<a id="main link" href="index2.html" style="display:none;">
+	<button>Enter Main Page</button>
+</a>
 </body>
 </html>
+
